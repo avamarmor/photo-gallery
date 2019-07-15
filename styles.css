@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.images {
+  background: pink;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  border:2px solid white;
+}
+
+h1{
+  text-align:center;
+  background-color: pink;
+  font-family: 'Lobster Two', cursive;
+}
+
+body{
+  background:pink;
+}
+
+img{
+  width:25%;
+  object-fit:cover;
+  height:200px;
+  justify-content:space-around
+}
+
+@media screen and (max-width:900px){
+  img{
+    width:50%;
+  }
+}
+
+@media screen and (max-width:700px){
+   img{
+     width:100%;
+   }
+ }
